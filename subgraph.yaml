@@ -1,12 +1,12 @@
 specVersion: 0.0.4
 description: Ethereum Contract Tracking Subgraph (powered by Substreams)
-repository: https://github.com/graphprotocol/graph-tooling
+repository: https://github.com/mitchhs12/substreams-test
 schema:
   file: schema.graphql
 dataSources:
   - kind: substreams
     name: substream_test
-    network: arbitrum-one
+    network: mainnet
     source:
       package:
         moduleName: graph_out
